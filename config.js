@@ -1,6 +1,6 @@
 const config = {
-  port: process.env.OPENSHIFT_NODEJS_PORT || 8000,
-  host: '0.0.0.0' // require('os').hostname() // process.env.OPENSHIFT_NODEJS_IP ||
+  port: process.env.OPENSHIFT_NODEJS_PORT || 8080,
+  host: process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0' // require('os').hostname()
 }
-
+console.log('[config]', config)
 module.exports = config
