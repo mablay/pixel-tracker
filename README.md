@@ -1,4 +1,4 @@
-# Mail Spy
+# Pixel Tracker
 
 ## Quickstart
 
